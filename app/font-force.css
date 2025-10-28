@@ -1,0 +1,179 @@
+/**
+ * NUCLEAR OPTION: Force Noto Sans Thai on EVERYTHING
+ * This file uses maximum CSS specificity to override ANY font
+ */
+
+/* Import Google Font at the top */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Layer 1: Universal selector with !important */
+* {
+  font-family: 'Noto Sans Thai', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+*::before,
+*::after {
+  font-family: 'Noto Sans Thai', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+/* Layer 2: Root elements */
+html,
+body,
+#root {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Layer 3: All descendants */
+html *,
+body *,
+#root * {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Layer 4: All HTML elements */
+h1, h2, h3, h4, h5, h6,
+p, span, div, a, button,
+input, textarea, select, option,
+label, li, td, th, caption,
+code, pre, kbd, samp,
+blockquote, cite, q,
+strong, em, b, i, u,
+small, mark, del, ins,
+sub, sup, abbr, dfn,
+time, var, address,
+figcaption, summary, details,
+section, article, aside, nav,
+header, footer, main,
+form, fieldset, legend,
+table, thead, tbody, tfoot, tr,
+dl, dt, dd, ol, ul,
+figure, canvas, svg,
+audio, video, iframe {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Layer 5: All class selectors */
+[class] {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+[class] * {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Layer 6: All ID selectors */
+[id] {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+[id] * {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Layer 7: Motion/Framer Motion elements */
+[data-framer-component-type],
+[data-framer-name],
+motion-div,
+motion-span,
+motion-button,
+motion-a,
+motion-p,
+motion-h1,
+motion-h2,
+motion-h3,
+motion-h4,
+motion-h5,
+motion-h6 {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Layer 8: SVG text elements */
+text,
+tspan,
+textPath {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Layer 9: Third-party libraries */
+/* Recharts */
+.recharts-text,
+.recharts-cartesian-axis-tick-value,
+.recharts-legend-item-text,
+.recharts-label,
+.recharts-default-tooltip {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+.recharts-text *,
+.recharts-cartesian-axis-tick-value *,
+.recharts-legend-item-text *,
+.recharts-label *,
+.recharts-default-tooltip * {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* React Slick */
+.slick-slide,
+.slick-track,
+.slick-list {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+.slick-slide *,
+.slick-track *,
+.slick-list * {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Layer 10: Inline styles override */
+[style*="font-family"] {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Layer 11: Computed styles */
+:root {
+  --font-sans: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  --font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  --font-family-base: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Layer 12: Font-family CSS variable usage */
+*[style*="var(--font"],
+*[class*="font-"] {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Layer 13: Absolutely positioned and fixed elements */
+[style*="position: absolute"],
+[style*="position: fixed"],
+.absolute,
+.fixed {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+[style*="position: absolute"] *,
+[style*="position: fixed"] *,
+.absolute *,
+.fixed * {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Layer 14: Portal and overlay elements */
+[data-radix-portal],
+[data-radix-portal] *,
+.portal,
+.portal *,
+.overlay,
+.overlay * {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Layer 15: Maximum specificity hack */
+html body div#root * {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+html body div#root *::before,
+html body div#root *::after {
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}

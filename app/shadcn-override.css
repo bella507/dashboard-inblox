@@ -1,0 +1,352 @@
+/**
+ * Shadcn UI Component Font Override
+ * Force Noto Sans Thai font for all shadcn components
+ */
+
+/* Base font family variable */
+:root {
+  --font-sans: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Button Component */
+button,
+.button,
+[class*="button"],
+[type="button"],
+[type="submit"],
+[type="reset"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Input Components */
+input,
+textarea,
+select,
+option,
+[type="text"],
+[type="email"],
+[type="password"],
+[type="number"],
+[type="search"],
+[type="tel"],
+[type="url"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Label Component */
+label,
+[class*="label"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Dialog/Modal Components */
+[role="dialog"],
+[role="alertdialog"],
+[data-radix-dialog-content],
+[data-radix-alert-dialog-content] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[role="dialog"] *,
+[role="alertdialog"] *,
+[data-radix-dialog-content] *,
+[data-radix-alert-dialog-content] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Dropdown Menu Component */
+[role="menu"],
+[role="menuitem"],
+[data-radix-dropdown-menu-content],
+[data-radix-context-menu-content],
+[data-radix-menubar-content] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[role="menu"] *,
+[data-radix-dropdown-menu-content] *,
+[data-radix-context-menu-content] *,
+[data-radix-menubar-content] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Select Component */
+[role="listbox"],
+[role="option"],
+[data-radix-select-content],
+[data-radix-select-trigger] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[role="listbox"] *,
+[data-radix-select-content] *,
+[data-radix-select-trigger] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Popover Component */
+[data-radix-popover-content],
+[data-radix-popper-content-wrapper] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[data-radix-popover-content] *,
+[data-radix-popper-content-wrapper] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Tooltip Component */
+[role="tooltip"],
+[data-radix-tooltip-content] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[role="tooltip"] *,
+[data-radix-tooltip-content] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Toast/Sonner Component */
+[data-sonner-toast],
+[data-sonner-toaster],
+.toaster,
+[class*="toast"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[data-sonner-toast] *,
+[data-sonner-toaster] *,
+.toaster *,
+[class*="toast"] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Sheet/Drawer Component */
+[data-radix-sheet-content],
+[role="presentation"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[data-radix-sheet-content] *,
+[role="presentation"] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Accordion Component */
+[data-radix-accordion-content],
+[data-radix-accordion-trigger] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[data-radix-accordion-content] *,
+[data-radix-accordion-trigger] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Tabs Component */
+[role="tablist"],
+[role="tab"],
+[role="tabpanel"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[role="tablist"] *,
+[role="tab"] *,
+[role="tabpanel"] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Navigation Menu Component */
+[data-radix-navigation-menu-content],
+[data-radix-navigation-menu-trigger] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[data-radix-navigation-menu-content] *,
+[data-radix-navigation-menu-trigger] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Hover Card Component */
+[data-radix-hover-card-content] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[data-radix-hover-card-content] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Command Component */
+[cmdk-root],
+[cmdk-input],
+[cmdk-list],
+[cmdk-item] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[cmdk-root] *,
+[cmdk-input] *,
+[cmdk-list] *,
+[cmdk-item] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Card Component */
+[class*="card"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[class*="card"] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Badge Component */
+[class*="badge"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Alert Component */
+[role="alert"],
+[class*="alert"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[role="alert"] *,
+[class*="alert"] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Table Component */
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+caption {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Breadcrumb Component */
+nav[aria-label*="breadcrumb"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+nav[aria-label*="breadcrumb"] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Pagination Component */
+nav[aria-label*="pagination"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+nav[aria-label*="pagination"] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Progress Component */
+[role="progressbar"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Slider Component */
+[role="slider"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Switch/Checkbox/Radio Components */
+[role="switch"],
+[role="checkbox"],
+[role="radio"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Sidebar Component */
+[data-sidebar],
+[class*="sidebar"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[data-sidebar] *,
+[class*="sidebar"] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Scroll Area Component */
+[data-radix-scroll-area-viewport] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[data-radix-scroll-area-viewport] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Separator Component */
+[role="separator"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Avatar Component */
+[class*="avatar"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Skeleton Component */
+[class*="skeleton"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Form Component */
+form,
+fieldset,
+legend {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+form *,
+fieldset *,
+legend * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Collapsible Component */
+[data-radix-collapsible-content],
+[data-radix-collapsible-trigger] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[data-radix-collapsible-content] *,
+[data-radix-collapsible-trigger] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Calendar Component */
+[role="grid"],
+[role="gridcell"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Resizable Component */
+[class*="resize"] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Toggle Component */
+[aria-pressed] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+/* Global catch-all for any missed components */
+[class*="ui-"],
+[data-state],
+[data-radix-collection-item] {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
+
+[class*="ui-"] *,
+[data-state] *,
+[data-radix-collection-item] * {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif !important;
+}
